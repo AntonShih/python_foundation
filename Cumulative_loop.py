@@ -5,4 +5,4 @@ while i < 10 : #while 是 迴圈 的意思，也就是說「當某個條件成�
 	print(total) #在迴圈裡面會印10次
 	i = i+1
 	
-print("!!!",total) #在外面只印一次
+print("!!!",total) #在外面只印一次git remote add origin git@github.com:AntonShih/python_foundation.git
