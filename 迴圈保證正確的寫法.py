@@ -13,13 +13,13 @@ while True :
         else:
             print("數字錯誤")
 
-        if guess <ans:
-            print("猜小了")
-            low = guess 
-        elif guess > ans :
-            print("猜大了")
-            high = guess 
-        else :
-            print("恭喜猜對")
-            break
+    if guess <ans:
+        print("猜小了")
+        low = guess 
+    elif guess > ans :
+        print("猜大了")
+        high = guess 
+    else :
+        print("恭喜猜對")
+        break
     
