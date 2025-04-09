@@ -14,7 +14,7 @@ for i in range(total):
 
     #insert (插入位置，插入值)
     doors.insert(idx,1) #1代表有獎
-    # print("準備的門",doors)
+    # print("準備的門",doors) 
 
     #隨機選一個門random
     chose = random.randint(0,len(doors)-1) #int
