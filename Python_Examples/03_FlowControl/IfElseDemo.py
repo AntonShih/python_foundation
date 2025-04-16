@@ -1,4 +1,4 @@
-score = 85
+score = int(input("請輸入分數: "))
 text = f"{score}分，"
 
 if score >= 85:

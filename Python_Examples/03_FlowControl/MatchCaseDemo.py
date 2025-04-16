@@ -1,5 +1,5 @@
 # 基本類型、字串比對與or
-rating = 5
+rating = 15
 match rating:
     case 1:
         print("第1名，10,000元獎金")
