@@ -3,7 +3,7 @@ for i in range(5):
     for j in range(1, 11):
         print(f" {j}", end=" ")
     print()
-print()
+# print()
 
 
 
