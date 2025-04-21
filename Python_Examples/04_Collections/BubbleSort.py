@@ -19,7 +19,7 @@ def bubbleSort(numbers):
 
 def main():
     # 將輸入的數列拆解成整數後存入list
-    numbers = list(map(int, input("輸入數列: ").split()))
+    numbers = list(map(int,input("輸入數列: ").split()))
     bubbleSort(numbers)
     print("排序完畢: ", end="")
     for number in numbers:

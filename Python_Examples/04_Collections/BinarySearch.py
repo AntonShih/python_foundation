@@ -15,7 +15,7 @@ def binarySearch(numbers, target):
 
 def main():
     # 將輸入的數列拆解成整數後存入list
-    numbers = list(map(int, input("輸入數列: ").split()))
+    numbers = list(map(int,input("輸入數列: ").split()))
 
     # 欲搜尋數字
     target = int(input("搜尋數字: "))

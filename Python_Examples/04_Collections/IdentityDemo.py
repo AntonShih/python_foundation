@@ -17,6 +17,7 @@ str1 = "abc"
 str2 = "abc"
 tuple1 = (1, 2, 3)
 tuple2 = (1, 2, 3)
+
 print(f"id(int1): {id(int1)}\nid(int2): {id(int2)}")
 print(f"{int1} == {int2}: {int1 == int2}")
 print(f"{int1} is {int2}: {int1 is int2}")
