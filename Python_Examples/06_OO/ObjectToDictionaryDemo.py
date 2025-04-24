@@ -2,7 +2,7 @@ from functools import reduce
 
 
 class Book:
-    def __init__(self, name="", price=0.0, author=""):
+    def __init__(self,name="", price=0.0, author=""):
         self.name = name
         self.price = price
         self.author = author
