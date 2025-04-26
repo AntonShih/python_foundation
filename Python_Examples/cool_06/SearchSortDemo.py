@@ -32,6 +32,7 @@ def main():
     print("搜尋物件，回傳所在索引: ")
     jsBook = Book("345678", "JS", 500)
     print(f"index: {myBooks.index(jsBook)}")
+    # print(f"index: {myBooks.index(Book("345678", "JS", 500))}")
     print("-----------------------------------")
 
     # 排序功能可套用在List與Set

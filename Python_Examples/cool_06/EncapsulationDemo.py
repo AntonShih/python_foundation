@@ -3,7 +3,8 @@ class Book:
     def __init__(self, name, price, author):
         # self.name屬於public
         self.name = name
-        # 宣告private屬性並給予初始值。不能直接將接到的引數值指派給"__price"，這樣不會執行setter檢查
+        # 宣告private屬性並給予初始值。不能直接將接
+        # 到的引數值指派給"__price"，這樣不會執行setter檢查
         self.__price = 0
         # 這樣才會執行setter
         self.price = price
