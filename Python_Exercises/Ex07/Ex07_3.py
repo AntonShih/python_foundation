@@ -43,3 +43,48 @@ if __name__ == "__main__":
     print("===================================")
     main()
     print("===================================")
+# -------------------------------------------------------
+# import re
+
+# def birthday(date):
+#     pattern = re.compile(r"19[0-9]{2} or 20[0-1]{1} or 2020")
+# result = pattern.
+
+# a = input("⽣⽇ (例如1981-1-1,必須介於1900 到 2020:)")
+# b = float(input("年齡 (可以為⼩數)"))
+
+# -------------------------------------------------------
+from datetime import datetime
+
+def check_birthday():
+    while True:
+        birthday_str = input("生日 (例如1981-1-1)：")
+        try:
+            birthday = datetime.strptime(birthday_str, "%Y-%m-%d")
+            if 1900 <= birthday.year <= 2020:
+                print("生日格式正確:", birthday.strftime("%Y-%m-%d"))
+                break
+            else:
+                print("生日格式錯誤，請再輸入一次！")
+        except ValueError:
+            print("生日格式錯誤，請再輸入一次！")
+
+def check_age():
+    while True:
+        age_str = input("年齡 (可以為小數)：")
+        try:
+            age = float(age_str)
+            if 0 <= age < 120:
+                print("年齡格式正確:", age)
+                break
+            else:
+                print("年齡格式錯誤，請再輸入一次！")
+        except ValueError:
+            print("年齡格式錯誤，請再輸入一次！")
+
+def main():
+    check_birthday()
+    check_age()
+
+if __name__ == "__main__":
+    main()
