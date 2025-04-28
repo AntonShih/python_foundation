@@ -4,7 +4,7 @@ def divide(dividend, divisor):
 
 
 def main():
-    divide(5, 0)
+    divide(5, 2)
 
 
 if __name__ == "__main__":

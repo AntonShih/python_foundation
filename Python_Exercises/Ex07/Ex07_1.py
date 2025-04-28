@@ -31,18 +31,18 @@ if __name__ == "__main__":
     main()
     print("===================================")
 # ------------------------------------------------------
-import random
+# import random
 
-b =[]
-def deliete(number):
-    while True:
-        b = random.simple(range(1,100),k = number)
-        for i in number:
-            for j in b:
-                if b % ? =!0:
-                    print("是質數")
-                else:
-                    print("不是質數")
+# b =[]
+# def deliete(number):
+#     while True:
+#         b = random.simple(range(1,100),k = number)
+#         for i in number:
+#             for j in b:
+#                 if b % ? =!0:
+#                     print("是質數")
+#                 else:
+#                     print("不是質數")
 
 
 def main():
