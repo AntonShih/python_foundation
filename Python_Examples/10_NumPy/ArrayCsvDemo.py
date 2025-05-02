@@ -41,7 +41,7 @@ def save_load_array_csv(path):
 
 
 def main():
-    path = Path("10_NumPy", "ArrayCsvDemo.csv")
+    path = Path("Python_Examples/10_NumPy", "ArrayCsvDemo.csv")
     save_load_array_csv(path)
 
 

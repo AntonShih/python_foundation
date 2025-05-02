@@ -36,10 +36,10 @@ def save_load_array_text(path):
 
 
 def main():
-    path_binary = Path("10_NumPy", "a2.npy")
+    path_binary = Path("Python_Examples/10_NumPy", "a2.npy")
     save_load_array_binary(path_binary)
     print("===================================")
-    path_text = Path("10_NumPy", "a2.txt")
+    path_text = Path("Python_Examples/10_NumPy", "a2.txt")
     save_load_array_text(path_text)
 
 

@@ -39,8 +39,8 @@ def demoImageProcess(file):
 
 
 def main():
-    readDir = Path("09_FileIO", "read")
-    writeDir = Path("09_FileIO", "write")
+    readDir = Path("Python_Examples/09_FileIO", "read")
+    writeDir = Path("Python_Examples/09_FileIO", "write")
     # 存放目錄不存在就建立，相對路徑代表存放位置跟執行的Python檔案放在同一目錄
     writeDir.mkdir(exist_ok=True)
 

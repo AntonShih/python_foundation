@@ -33,7 +33,7 @@ def autoClose(path):
 
 def main():
     # 檔案路徑
-    path = Path("08_Exceptions", "books.txt")
+    path = Path("08_Exceptions","books.txt")
 
     finallyClose(path)
     print("-----------------------------------")

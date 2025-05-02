@@ -23,7 +23,7 @@ def demoWrite(filePath, text):
 
 
 def main():
-    writeDir = Path("Ex09", "write")
+    writeDir = Path("Python_Exercises\Ex09", "write")
     # 存放目錄不存在就建立，相對路徑代表存放位置跟執行的Python檔案放在同一目錄
     writeDir.mkdir(exist_ok=True)
 
