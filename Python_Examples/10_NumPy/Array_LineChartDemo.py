@@ -4,7 +4,7 @@ from matplotlib.font_manager import FontProperties
 
 # 不支援中文字型，搜尋並下載「Noto Fonts TC」，解壓縮後隨意複製一個文字檔案到專案內
 # 建立FontProperties物件指定字型檔案名稱
-font = FontProperties(fname="10_NumPy/NotoSansTC-Regular.otf", size=10)
+font = FontProperties(fname="Python_Examples/10_NumPy/NotoSansTC-Regular.otf", size=10)
 
 
 def lineChart_array1D():
@@ -55,7 +55,7 @@ def lineChart_array2D():
     # 圖例原錨點位置在(0, 0)，就是在圖表的左下方
     # bbox_to_anchor=(1, 1): 代表圖例新的錨點位置設在圖表右上方邊界
     # loc="upper left": 代表圖例的左上端對齊新的錨點(所以圖例會在錨點右下方)
-    plt.legend(["A", "B"], bbox_to_anchor=(1, 1), loc="upper left")
+    plt.legend(["A", "B"], bbox_to_anchor=(1,1), loc="best")
 
     plt.title("銷售量", fontproperties=font)
     plt.xlabel("2025年", fontproperties=font)
@@ -71,7 +71,7 @@ def lineChart_array2D():
 
 def main():
     lineChart_array1D()
-    # lineChart_array2D()
+    lineChart_array2D()
 
 
 if __name__ == "__main__":

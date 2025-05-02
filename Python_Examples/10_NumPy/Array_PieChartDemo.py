@@ -3,7 +3,7 @@ from matplotlib.font_manager import FontProperties
 
 # 不支援中文字型，搜尋並下載「Noto Fonts TC」，解壓縮後隨意複製一個文字檔案到專案內
 # 建立FontProperties物件指定字型檔案名稱
-font = FontProperties(fname="10_NumPy/NotoSansTC-Regular.otf", size=10)
+font = FontProperties(fname="Python_Examples/10_NumPy/NotoSansTC-Regular.otf", size=10)
 
 
 def pieChart():
@@ -13,7 +13,7 @@ def pieChart():
     # 顏色
     colors = ["brown", "cyan", "green", "yellow", "orange"]
     # 設定圖表大小為10x6(英吋)
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(5,5))
     plt.title("7月銷售量", fontproperties=font)
     # pie chart
     # autopct：值以百分比顯示
@@ -26,7 +26,7 @@ def pieChart():
         colors=colors,
         autopct='%.2f%%',
         startangle=90,
-        wedgeprops={"width": 0.6},
+        wedgeprops={"width": 0.2},
         textprops={"fontproperties": font}
     )
     plt.yticks(fontproperties=font)
